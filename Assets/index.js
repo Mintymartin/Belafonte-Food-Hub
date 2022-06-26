@@ -46,25 +46,30 @@ fetch(url)
         })
         document.getElementById("content").innerHTML = html;
 
-        //Like buttons
+        //Like button
         let likebtn = document.querySelector('#likebtn');
+        //Dislike buttons
         let dislikebtn = document.querySelector('#dislikebtn');
         let input1 = document.querySelector('#input1');
         let input2 = document.querySelector('#input2');
 
+        //Event Listener:click
         likebtn.addEventListener('click', () => {
-            input1.value = parseInt(input1.value) + 1;
-            input1.style.color = "#12ff00";
-        })
+                input1.value = parseInt(input1.value) + 1;
+                input1.style.color = "#12ff00";
+            })
+            //Event Listener:click
         dislikebtn.addEventListener('click', () => {
-            input2.value = parseInt(input2.value) + 1;
-            input2.style.color = "#ff0000";
-        })
+                input2.value = parseInt(input2.value) + 1;
+                input2.style.color = "#ff0000";
+            })
+            //DOMContentLoaded
         document.addEventListener("DOMContentLoaded", () => {
                 html()
             })
             //Review form
         const mealReviews = document.getElementById('review-points');
+        //Event Listener:Submit
         document.querySelector('#form').addEventListener('submit', (e) => {
             e.preventDefault();
             let text = document.querySelector('#form textarea')
