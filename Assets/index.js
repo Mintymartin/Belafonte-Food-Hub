@@ -62,5 +62,14 @@ fetch(url)
         document.addEventListener("DOMContentLoaded", () => {
             html()
         })
+        const mealReviews = document.getElementById('review-points');
+        document.querySelector('#form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            let text = document.querySelector('#form textarea')
+            let review = document.createElement('li');
+            review.innerText = text.value;
+            mealReviews.appendChild(review);
+            document.querySelector('#form').reset();
+        })
     })
     .catch((err) => console.log(err))
