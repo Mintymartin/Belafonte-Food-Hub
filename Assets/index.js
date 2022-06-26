@@ -46,6 +46,7 @@ fetch(url)
         })
         document.getElementById("content").innerHTML = html;
 
+        //Like buttons
         let likebtn = document.querySelector('#likebtn');
         let dislikebtn = document.querySelector('#dislikebtn');
         let input1 = document.querySelector('#input1');
@@ -60,8 +61,9 @@ fetch(url)
             input2.style.color = "#ff0000";
         })
         document.addEventListener("DOMContentLoaded", () => {
-            html()
-        })
+                html()
+            })
+            //Review form
         const mealReviews = document.getElementById('review-points');
         document.querySelector('#form').addEventListener('submit', (e) => {
             e.preventDefault();
