@@ -3,14 +3,13 @@
 ### Author : Martin Chege 21st June 2022
 ****
 ## Project Description
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-Using a fetch API to get a list of characters from the Starwars movie Franchise.
+Using a fetch API ("https://www.themealdb.com/api/json/v1/1/search.php?s=") to get a list of meals  I came up with Belafonte Food Hub website that offers users a variety of meals and using a button one can watch how to prepare the meals and like or dislike based on their preference.
 
 Getting:
-1.gg
-2.gg
-3.ff
-4.tt
+1.List of meals/dish
+2.Learn how to prepare the meal with the aid of a video
+3.Ability to like 
+4.Ability to dislike
 ******
 
 ## SCREENSHOTS
