@@ -1,4 +1,5 @@
 "use strict";
+
 const url = "https://www.themealdb.com/api/json/v1/1/search.php?s=";
 fetch(url)
     .then(res => (res.json()))
@@ -58,6 +59,8 @@ fetch(url)
             input2.value = parseInt(input2.value) + 1;
             input2.style.color = "#ff0000";
         })
-
+        document.addEventListener("DOMContentLoaded", () => {
+            html()
+        })
     })
     .catch((err) => console.log(err))
