@@ -121,3 +121,11 @@ button:active {
     color: #4c8ceb;
     transform: scale(1.5);
 }
+
+.formatReview {
+    background: rgb(166, 122, 223);
+    border: none;
+    margin: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
