@@ -28,7 +28,7 @@ Getting:
 ### Getting Files
 * Fork the repo
 - Create a new branch in your terminal (git checkout -b improve-feature)
-- Install the prerequisites
+- Install the prerequisites.
 - Make appropriate changes in file(s)
 - Run the server to see the changes
 - Add the changes and commit them (git commit -am "Improve App")
