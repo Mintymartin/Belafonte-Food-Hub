@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap');
+* {
+    font-family: "nunito";
+    /* background-color: white; */
+}
+
+.card {
+    padding: 20px;
+    margin: 20px;
+}
+
+.bstart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.start {
+    font-weight: 400;
+    color: darkslateblue;
+    padding: 50px;
+}
+
+.list ul>li {
+    list-style: none;
+    display: inline-block;
+    padding: 50px;
+}
+
+.major {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+    padding-bottom: 20px;
+}
+
+.one {
+    width: 40%;
+    height: 280px;
+    left: 120px;
+    top: 172px;
+}
+
+.one p {
+    width: 578px;
+    height: 140px;
+    left: 120px;
+    top: 172px;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 70px;
+    letter-spacing: 0.02em;
+    color: #513ad3;
+}
+
+.two {
+    width: 40%;
+    height: 491px;
+    left: 798px;
+    top: 163px;
+}
+
+.two img {
+    width: 491px;
+    height: 491px;
+    left: 798px;
+    top: 163px;
+}
+
+#tee {
+    align-content: center;
+    border: 1px yellow;
+}
+
+.all {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+    padding: 15px;
+    width: 100%;
+}
+
+
+/* .lke {
+    padding: 5px;
+    width: 30%;
+}
+
+.dis {
+    padding: 5px;
+    width: 70%;
+} */
+
+input {
+    width: 50px;
+    border: none;
+    background: none;
+    color: #919191;
+    font-size: 25px;
+    margin-right: 10px;
+    pointer-events: none;
+}
+
+button {
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding-right: 15px;
+    margin: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+button:active {
+    color: #4c8ceb;
+    transform: scale(1.5);
+}
