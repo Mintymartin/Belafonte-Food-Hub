@@ -3,13 +3,14 @@
 ### Author : Martin Chege 21st June 2022
 ****
 ## Project Description
-Using a fetch API ("https://www.themealdb.com/api/json/v1/1/search.php?s=") to get a list of meals  I came up with Belafonte Food Hub website that offers users a variety of meals and using a button one can watch how to prepare the meals and like or dislike based on their preference.
+Using a fetch API ("https://www.themealdb.com/api/json/v1/1/search.php?s=") to get a list of meals I came up with Belafonte Food Hub website that offers users a variety of meals and using a button one can watch how to prepare the meals, like or dislike based on their preference and Submit a review at the button of the page.
 
 Getting:
 1.List of meals/dish
-2.Learn how to prepare the meal with the aid of a video
-3.Ability to like 
-4.Ability to dislike
+2.Name of the meal 
+3.Category: such as Soup or side dish
+4.Origin of the meal
+5.Youtube link to learn how to prepare the meal with the aid of a video
 ******
 
 ## SCREENSHOTS
