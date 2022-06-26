@@ -123,9 +123,21 @@ button:active {
 }
 
 .formatReview {
-    background: rgb(166, 122, 223);
-    border: none;
-    margin: 10px;
-    margin-left: 20px;
-    cursor: pointer;
+    background: black;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.inn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+    padding: 15px;
+    width: 100%;
+}
+
+button {
+    color: aliceblue;
 }
