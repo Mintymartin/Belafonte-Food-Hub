@@ -14,8 +14,9 @@ Getting:
 ******
 
 ## SCREENSHOTS
-- link 1
-- link 2
+- ![Screenshot from 2022-06-26 21-33-24](https://user-images.githubusercontent.com/24671358/175829051-5c3bd3ed-01ab-4597-8d54-10bd83a9df6e.png)
+- ![Screenshot from 2022-06-26 21-33-34](https://user-images.githubusercontent.com/24671358/175829052-fb18cd3e-bdac-489b-867b-187a79a29d70.png)
+- ![Screenshot from 2022-06-26 21-33-51](https://user-images.githubusercontent.com/24671358/175829055-4038b828-29bf-4d39-bf07-8cd0ee8b2e51.png)
 
 
 ********
