@@ -71,12 +71,40 @@ fetch(url)
         const mealReviews = document.getElementById('review-points');
         //Event Listener:Submit
         document.querySelector('#form').addEventListener('submit', (e) => {
-            e.preventDefault();
-            let text = document.querySelector('#form textarea')
-            let review = document.createElement('li');
-            review.innerText = text.value;
-            mealReviews.appendChild(review);
-            document.querySelector('#form').reset();
-        })
+                e.preventDefault();
+                let text = document.querySelector('#form textarea')
+                let review = document.createElement('li');
+                review.innerText = text.value;
+                mealReviews.appendChild(review);
+                document.querySelector('#form').reset();
+            })
+            //Like button
+        let likebtns = document.querySelectorAll("#likebtn");
+        let input1s = document.querySelectorAll("#input1");
+        likebtns.forEach((btn, btnId) => {
+            btn.addEventListener("click", () => {
+                input1s.forEach((input1, inputId) => {
+                    if (btnId === inputId) {
+                        input1.value = parseInt(input1.value) + 1;
+                        input1.style.color = "#12ff00";
+                    }
+                });
+            });
+        });
+        //Dislike button
+        //Like button
+        let dislikebtns = document.querySelectorAll("#dislikebtn");
+        let input2s = document.querySelectorAll("#input2");
+        dislikebtns.forEach((btn, btnId) => {
+            btn.addEventListener("click", () => {
+                input2s.forEach((input2, inputId) => {
+                    if (btnId === inputId) {
+                        input2.value = parseInt(input2.value) + 1;
+                        input2.style.color = "#12ff00";
+                    }
+                });
+            });
+        });
     })
-    .catch((err) => console.log(err))
+
+.catch((err) => console.log(err))
